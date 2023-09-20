@@ -4,3 +4,6 @@ class Shape:
 
     def __str__(self):
         return(f'{self.get_area()}')
+
+    def get_perimeter(self):
+        print("Subclass has to implement this method.")
